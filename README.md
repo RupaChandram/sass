@@ -5,11 +5,11 @@ Sass is a CSS pre-processor.  Sass reduces repetition of CSS and therefore saves
 - link your html file with generated css file not scss
 
 ### Superpowers:
-- 1. Operators
+1. Operators
     - You can use operators like + and - 
     - For me * and / did not work. 
     eg: `font-size: 2rem+3rem;`
-- 2. Variables
+2. Variables
     - you can create variable
 ```
 // Variables
@@ -20,7 +20,7 @@ $bg-color:#2e86de;
     background-color:$bg-color;
  ```
 
-- 3. nesting
+3. nesting
 ```
 .main_header{
    width: 100vw;
@@ -32,7 +32,7 @@ $bg-color:#2e86de;
            }
 }
 ```
-- 4. mixin
+4. mixin
     - If you are finding common properties, store that properties into a variable and you can use that variable through include 
 ```
 //@mixin
@@ -47,7 +47,7 @@ $bg-color:#2e86de;
  .main_header{
     @include flexprob;
  ```
-- 5. Parameters
+5. Parameters
 ```
 @mixin flexprob($space) {
     display: grid;
@@ -57,7 +57,7 @@ $bg-color:#2e86de;
     letter-spacing: $space;
 }
 ```
-- 6. partials
+6. partials
     - _ is mandatory
     - create separate files for variables, mixins etc
     - use `@import 'var';` to import the file

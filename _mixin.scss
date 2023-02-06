@@ -1,0 +1,8 @@
+//@mixin
+@mixin flexprob($space) {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: $space;
+}

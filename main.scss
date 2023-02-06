@@ -1,0 +1,32 @@
+@import "var";
+@import "mixin";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_header{
+    @include flexprob(1rem);
+   width: 100vw;
+    height: 100vh;
+    background-color: #2e86de;
+    // Operators
+        h1 {
+            color: red;
+            font-size: 2rem + 2rem;
+            //nesting with pseudo class
+                &:hover {
+                    color: azure;
+                }
+                &::after {
+                    content: 'sitory';
+                }
+        }
+    
+        p{
+            @include flexprob(0.5rem);
+            color: rgb(36, 42, 158);
+            font-size: 2rem + 2rem;
+        }
+}

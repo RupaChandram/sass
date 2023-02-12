@@ -6,8 +6,7 @@ Sass is a CSS pre-processor.  Sass reduces repetition of CSS and therefore saves
 
 ### Superpowers:
 1. Operators
-    - You can use operators like + and - 
-    - For me * and / did not work. 
+    -  sass provides some standard math operators i.e. +, -, *, /, and %.
     eg: `font-size: 2rem+3rem;`
 2. Variables
     - you can create variable
@@ -62,6 +61,10 @@ $bg-color:#2e86de;
     - create separate files for variables, mixins etc
     - use `@import 'var';` to import the file
     - No need to write `_var.scss`. use 'var'.
+### References
+- https://www.javatpoint.com/sass-tutorial
+- https://sass-lang.com/documentation/
+- https://www.youtube.com/watch?v=hkQv0NIxKQY&t=3s
 
 ### Live link : [SCSS](https://rupachandram.github.io/sass/)
 ### Happy Learning !!!

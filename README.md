@@ -64,7 +64,7 @@ $bg-color:#2e86de;
 ### References
 - https://www.javatpoint.com/sass-tutorial
 - https://sass-lang.com/documentation/
-- https://www.youtube.com/watch?v=hkQv0NIxKQY&t=3s
+- https://www.youtube.com/watch?v=tEQOdFgUXI4
 
 ### Live link : [SCSS](https://rupachandram.github.io/sass/)
 ### Happy Learning !!!
